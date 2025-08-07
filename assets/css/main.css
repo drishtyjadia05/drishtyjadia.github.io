@@ -1669,7 +1669,7 @@ input, select, textarea {
   margin: 0 auto;
   border-radius: 50%;
   overflow: hidden;
-  background: #fff;
+  background-color: #ffffff; /* optional */
 }
 
 .logo-circle img {
@@ -1678,4 +1678,6 @@ input, select, textarea {
   object-fit: cover;
   display: block;
 }
+
+
 
