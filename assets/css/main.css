@@ -1669,7 +1669,8 @@ input, select, textarea {
   margin: 0 auto;
   border-radius: 50%;
   overflow: hidden;
-  border: 2px solid white;
+  border: 1.5px solid white; /* <-- the thin white ring */
+  box-sizing: content-box;
   /*background-color: #ffffff; /* optional */
 }
 
@@ -1678,7 +1679,9 @@ input, select, textarea {
   height: 100%;
   object-fit: cover;
   display: block;
+  transform: scale(0.96);
 }
+
 
 
 
